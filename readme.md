@@ -165,6 +165,8 @@ Response: 200 OK
   "timestamp": "2023-12-01T10:00:00"
 }
 
+### Database Choice Justification
+
 **MySQL** was chosen as the production database for the following reasons:
 
 1. **ACID Compliance**: Ensures data integrity for financial and borrowing transactions
@@ -173,6 +175,8 @@ Response: 200 OK
 4. **Community Support**: Large community and extensive documentation
 5. **Simplicity**: mostly reads, and lightweight workloads
 6. **Cost Effective**: Open-source with no licensing fees
+
+**H2** is used for development and testing for rapid prototyping and easy setup.
 
 ### Key Assumptions
 
