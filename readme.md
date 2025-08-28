@@ -164,6 +164,7 @@ Response: 200 OK
   "message": "Book is already borrowed by another member",
   "timestamp": "2023-12-01T10:00:00"
 }
+```
 
 ### Database Choice Justification
 
